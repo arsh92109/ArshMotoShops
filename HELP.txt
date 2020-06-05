@@ -1,0 +1,22 @@
+// here we made an auth change
+1. in config/auth
+
+paste this file in first codes 
+           
+ 'admin' => [
+                'driver' => 'session',
+                'provider' => 'admins',
+            ],
+
+2. in user providers in config/auth
+paste this file after the providers code
+
+ 'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\AdminUser::class,
+        ],
+
+3. As we know we are working on a ecommerce website so we need a option of shoppingcart
+for that
+we have to install some more packages, i.e.
+composer require hardevine/shoppingcart
