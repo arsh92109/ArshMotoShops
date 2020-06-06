@@ -1,4 +1,4 @@
-@extends('front.layouts.master')
+@extends('front.layouts.index')
 
 @section('style')
     <script src="https://js.stripe.com/v2/"></script>
