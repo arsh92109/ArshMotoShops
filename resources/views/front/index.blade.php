@@ -1,4 +1,4 @@
-@extends('front.layouts.index')
+@extends('front.layouts.master')
 
 @section('content')
     <!-- Jumbotron Header -->

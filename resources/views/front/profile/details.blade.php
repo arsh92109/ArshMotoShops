@@ -1,4 +1,4 @@
-@extends('front.layouts.index')
+@extends('front.layouts.master')
 
 @section('content')
     <h2>User Order Details Page</h2>
